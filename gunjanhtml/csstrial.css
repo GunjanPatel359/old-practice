@@ -1,0 +1,41 @@
+body {
+    font-size: x-large;
+}
+#Volp {
+    color: blue;
+}
+.naruto {
+    color:aquamarine ;
+    border-top-style: solid;
+    border-bottom-style: dashed;
+    border-left-style: dotted;
+    border-right-style: hidden;
+    border-color: gray;
+    outline-style: dashed;
+    outline-color: darkgrey;
+}
+#story .sacrifies .curse .kurama {
+    color: blueviolet;
+}
+.kurama {
+    color: aqua;
+}
+.image {
+    float: right;
+}
+.fg {
+    font-weight: bolder;
+    overflow: scroll;
+    text-transform: capitalize;
+    width: 700px;
+    height: 300px;
+}
+.clear {
+    clear: both;
+    text-shadow: 10px 10px 2px #b5acac64;
+}
+.new {
+    background-color: darkorchid;
+    box-shadow: 10px 10px #a43a94,
+                inset 10px 10px rgba(186, 13, 186, 0.475);
+}

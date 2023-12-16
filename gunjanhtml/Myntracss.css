@@ -1,0 +1,43 @@
+.left img {
+    width: 32px;
+    height: 23px;
+}
+
+nav {
+    padding: 0px 12px;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0px 12px;
+}
+
+
+/* header {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px px 15px;
+} */
+
+.section1 {
+    background-color: #dad5d5;
+    height: 120vh;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 60px;
+}
+
+nav {
+    font-size: 12px;
+    padding-top: 14px;
+}
+
+.search {
+    width: 30vw;
+    padding: 4px 15px;
+    border: 0.5px solid grey;
+    background: #f7f8fd;
+    border-radius: 5px;
+}

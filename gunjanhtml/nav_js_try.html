@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="nav_js_try.css">
+</head>
+
+<body>
+    <div class="main"></div>
+
+    <div class="inline">
+        <div class="side"></div>
+        <div class="box">
+            <ul class="list">
+                <div id="red" class="button" onclick="hi()"></div>
+                <div id="blue" class="button" onclick="hi1()"></div>
+                <div id="start">
+                    <li>hi</li>
+                    <li>hi</li>
+                    <li>hi</li>
+                </div>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function hi() {
+            document.getElementById("blue").style.display = "inline-block";
+            document.getElementById("red").style.display = "none";
+            document.getElementById("start").style.display = "block";
+
+        }
+
+        function hi1() {
+            document.getElementById("blue").style.display = "none";
+            document.getElementById("red").style.display = "inline-block";
+            document.getElementById("start").style.display = "none";
+        }
+    </script>
+</body>
+
+</html>

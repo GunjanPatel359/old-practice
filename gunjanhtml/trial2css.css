@@ -1,0 +1,13 @@
+p{
+    background-color: azure;
+    color: red;
+    border: 3px;
+}
+h1{
+    border: 5px inset red;
+    color: blueviolet;
+}
+h2{
+    border: 2px solid powderblue;
+    padding: 30px;
+}

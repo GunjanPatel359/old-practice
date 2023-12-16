@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let a = ["s", "w", "g"]
+        let d = []
+        let f = []
+        let i = 0
+        while (i < 5) {
+            let c = prompt("input one from this there s,w,g")
+            let b = Math.random() * 3
+            b = Number.parseInt(b)
+            let e = a[b]
+
+            if (c != e) {
+                if (c == "s" && e == "w") {
+                    console.log("you choose ", c, "  computer choose ", e)
+                    console.log("you won this round")
+                    d.push("W")
+                    f.push(1)
+                } else if (c == "w" && e == "g") {
+                    console.log("you choose ", c, "  computer choose ", e)
+                    console.log("you won this round")
+                    d.push("W")
+                    f.push(1)
+                } else if (c == "g" && e == "s") {
+                    console.log("you choose ", c, "  computer choose ", e)
+                    console.log("you won this round")
+                    d.push("W")
+                    f.push(1)
+                } else if (c == "w" && e == "s") {
+                    console.log("you choose ", c, "  computer choose ", e)
+                    console.log("you lose this round")
+                    d.push("L")
+                    f.push(-1)
+                } else if (c == "g" && e == "w") {
+                    console.log("you choose ", c, "  computer choose ", e)
+                    console.log("you lose this round")
+                    d.push("L")
+                    f.push(-1)
+                } else if (c == "s" && e == "g") {
+                    console.log("you choose ", c, "  computer choose ", e)
+                    console.log("you lose this round")
+                    d.push("L")
+                    f.push(-1)
+                }
+            } else if (c == e) {
+                console.log("you choose ", c, "  computer choose ", e)
+                console.log("this round goes to draw")
+                d.push("D")
+                f.push(0)
+            } else {
+                console.log("invalid input")
+                alert("reload the page")
+                break;
+            }
+            i++
+        }
+        console.log(d.join("-"))
+        console.log(f.toString())
+        let h = 0
+        for (n = 0; n < 5; n++) {
+            j = f[n]
+            h = h + j
+        }
+        console.log(h)
+        if (h > 1) {
+            console.log("you won the game")
+        } else {
+            console.log("you lose the game")
+        }
+    </script>
+</body>
+
+</html>

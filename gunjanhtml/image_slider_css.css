@@ -1,0 +1,46 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.sliders{
+        overflow: hidden;
+}
+#slider_images {
+    position: relative;
+    left: 0%;
+    width: 400%;
+    display: flex;
+    animation: slider_animation 20s infinite linear;
+}
+@keyframes slider_animation{
+    0%{left:0%}
+    22%{left:0%}
+    28%{left:-100%}
+    46%{left:-100%}
+    54%{left:-200%}
+    72%{left:-200%} 
+    78%{left:-300%} 
+    96%{left:-300%} 
+} 
+.all_slider_img{
+    margin: auto 1%;
+    width: 80%;
+    height: 600px;
+}
+#img1{
+    background-image:url("images/back1.jpg");
+    background-size: cover;
+}
+#img2{
+    background: url("images/8117142_2070.jpg");
+    background-size: cover;
+}
+#img3{
+    background-image:url("images/wallpaperflare.com_wallpaper (112233).jpg") ;
+    background-size: cover;
+}
+#img4{
+    background: url("images/21599.jpg");
+    background-size: cover;
+}

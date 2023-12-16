@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // n! 1st method
+        /*let a = 0;
+        let b = 0;
+        let i = prompt("who's factorial you want to do?")
+        i = Number.parseInt(i)
+        for (a; a < i;) {
+            a += 1;
+            console.log(a);
+            b += a;
+        }
+        console.log(b)*/
+
+
+        // n! 2nd method
+        /*let a = 0;
+        let b = 0;
+        let i = prompt("who's factorial you want to do?")
+        i = Number.parseInt(i)
+        for (a; a <= i; a++) {
+            console.log(a);
+            b += a;
+        }
+        console.log(b)*/
+
+        // n! 3rd method
+        /*let b = 0;
+        let i = prompt("who's factorial you want to do?")
+        i = Number.parseInt(i)
+        for (i; i > 0; i--) {
+            console.log(i);
+            b += i;
+        }
+        console.log(b)*/
+
+        // while loop
+        /*let a = prompt("write any number?");
+        a = Number.parseInt(a);
+        let i = 0
+        while (i < a) {
+            console.log(i);
+            i++;
+        }*/
+
+        // do while loop
+        /*let a = prompt("write any number");
+        a = Number.parseInt(a);
+        let i = 0;
+        do {
+            console.log(i);
+            i++;
+        } while (i < a)
+        */
+
+        const hello = () => {
+            console.log("hello how are you?")
+        }
+
+        let cn = Math.floor(Math.random() * 10)
+        let i
+        while (i != cn) {
+            console.log("try again")
+            i = prompt("Enter the number");
+        }
+        console.log("You guess the correct number")
+
+        let boy1 = "nikhil"
+        let boy2 = "alec"
+        let con = `${boy2} is a friend of ${boy1}`
+        console.log(con)
+    </script>
+</body>
+
+</html>

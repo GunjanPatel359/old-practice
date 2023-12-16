@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        //let fr = "shiv"
+        //  for (i = 0; i < fr.length; i++) {
+        //   console.log(fr[i])
+        //}
+
+
+        let a
+        let b = Math.floor(Math.random() * 100)
+        let c = []
+        do {
+            a = prompt("enter the number");
+            c.push(a)
+            if (a > b) {
+                alert("the number is lesser than the number you guessed  " + a + ">n")
+            } else if (a < b) {
+                alert("the number is greater than the number you guessed  " + a + "<n")
+            }
+            //console.log((a = b) ? "try again" : "congratulation")
+            //console.log("try again")
+        } while (a != b)
+
+        console.log("congratulation");
+        console.log("the number is", b);
+        console.log("you take", c.length, "trys to guess the right number");
+        console.log("this are the number you guessed", c.toString())
+        console.log("your score is", 100 - c.length);
+        //incomplete
+    </script>
+</body>
+
+</html>
